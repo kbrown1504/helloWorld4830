@@ -8,14 +8,14 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class MyServerlet
  */
-@WebServlet("/MyServerlet")
-public class MyServerlet extends HttpServlet {
+@WebServlet("/MyServlet")
+public class MyServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public MyServerlet() {
+    public MyServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
